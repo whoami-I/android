@@ -1,9 +1,15 @@
 package com.example.codereview;
 
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -18,10 +24,55 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		// 这段代码是为了使得可以在主线程中访问网络
+		if (android.os.Build.VERSION.SDK_INT > 9) {
+			StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder()
+					.permitAll().build();
+			StrictMode.setThreadPolicy(policy);
+		}
 
 		et_path = (EditText) findViewById(R.id.et_path);
 		btn_watch = (Button) findViewById(R.id.btn_watch);
 		tv_code = (TextView) findViewById(R.id.tv_code);
+	}
+
+	public void click(View v) {
+
+		System.out.println("output123");
+		// get website
+		String path = et_path.getText().toString().trim();
+		// new a URL object
+		try {
+			System.out.println(path);
+			URL url = new URL(path);
+			// 拿到httpURLConnection对象，用于获取数据
+			HttpURLConnection connect = (HttpURLConnection) url
+					.openConnection();
+
+			// 设置请求超时，5秒
+			connect.setConnectTimeout(5000);
+			// 发送get请求
+
+			connect.setRequestMethod("GET");
+			System.out.println("output123");
+
+			// 获取服务器返回的状态码
+
+			int code = connect.getResponseCode();
+			System.out.println(code);
+			if (code == 200) {
+				// code 为200时，说明状态正常
+				InputStream inputStream = connect.getInputStream();
+				// 把流转换成字符串，把流里面的数据展示在textview里面
+				String content = StreamTools.readStream(inputStream);
+				tv_code.setText(content);
+				System.out.println("output");
+			}
+		} catch (Exception e) {
+			System.out.println("error");
+			e.printStackTrace();
+		}
+
 	}
 
 	@Override
