@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -12,8 +11,8 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 
 	private EditText et_path;
+	private Button btn_watch;
 	private TextView tv_code;
-	private Button btn_review;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -21,13 +20,8 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		et_path = (EditText) findViewById(R.id.et_path);
-		btn_review = (Button) findViewById(R.id.btn_review);
+		btn_watch = (Button) findViewById(R.id.btn_watch);
 		tv_code = (TextView) findViewById(R.id.tv_code);
-
-	}
-
-	public void click(View v) {
-
 	}
 
 	@Override
