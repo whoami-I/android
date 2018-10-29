@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.example.listview.R.id"/>
+<fullyQualifiedTypeName name="com.example.listview.MainActivity.MyAdapter"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="android.view.LayoutInflater"/>
+<fullyQualifiedTypeName name="com.example.listshowcomplex.R"/>
+<fullyQualifiedTypeName name="java.util.zip.Inflater"/>
+<fullyQualifiedTypeName name="com.example.listshowcomplex.R.id"/>
+<fullyQualifiedTypeName name="com.example.listshowcomplex.R.layout"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="com.example.listviewshowsql.MySQLOpenHelper"/>
+<fullyQualifiedTypeName name="com.example.listviewshowsql.R"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="android.content.ContentValues"/>
+<fullyQualifiedTypeName name="android.widget.BaseAdapter"/>
+<fullyQualifiedTypeName name="com.example.listviewshowsql.R.layout"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="com.example.listviewshowsql.Information"/>
+<fullyQualifiedTypeName name="com.example.listviewshowsql.R.id"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+<fullyQualifiedTypeName name="com.example.listviewshowsql.MainActivity.MyAdapter"/>
+<fullyQualifiedTypeName name="android.widget.SimpleAdapter"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.example.listviewshowsqlsimpleadapter.R.layout"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.example.listviewshowsqlsimpleadapter.R"/>
+<fullyQualifiedTypeName name="com.example.listviewshowsqlsimpleadapter.R.id"/>
+</qualifiedTypeNameHistroy>

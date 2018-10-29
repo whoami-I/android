@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;com.example.listview.MainActivity.onCreate().lv&apos; in &apos;com.example.listview.MainActivity.onCreate()&apos; to field&#x0D;&#x0A;- Original project: &apos;ListView&apos;&#x0D;&#x0A;- Original element: &apos;com.example.listview.MainActivity.onCreate().lv&apos;&#x0D;&#x0A;- Field name: &apos;lv&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;lv&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;com.example.listview{MainActivity.java" name="lv" selection="470 37" stamp="1540534832782" static="false" version="1.0" visibility="2"/>
+</session>

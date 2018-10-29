@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_icon"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="today is Friday,I am from huizhou,hahahahah"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_title"
+        android:layout_toRightOf="@id/iv_icon"
+        android:lines="2"
+        android:text="dscsdvsvsvsvsvsadvavvavfdvfdvavafvvavafvsvsvsvsadvavvavfdvfdvavafvvavaavvvavafvavvavvasddddavvsv"
+        android:textColor="#707070"
+        android:textSize="13sp" />
+
+</RelativeLayout>
