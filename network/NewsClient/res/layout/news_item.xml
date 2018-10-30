@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.jit.lib.SmartImageView
+        android:id="@+id/iv"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/iv"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="hahahaaaaaahahahaaaaaaaaaaaa"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/iv"
+        android:lines="2"
+        android:text="hahahaaaaaaaaahahahahahaaaaaaaaahahahaaaaaaaaahaaaaaaaaahahahaaaaaaaaa"
+        android:textColor="#555555"
+        android:textSize="14sp" />
+
+</RelativeLayout>
