@@ -1,0 +1,22 @@
+package com.example.sendmessage;
+
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ListView;
+
+public class ContactActivity extends Activity {
+
+	private ListView lv_contact;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_contact);
+
+		lv_contact = (ListView) findViewById(R.id.lv_contact);
+
+		ArrayList<Contact> contactsList = new ArrayList<Contact>();
+	}
+}

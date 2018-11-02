@@ -1,0 +1,6 @@
+package com.example.sendmessage;
+
+public class Contact {
+	String name;
+	String phone;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;com.example.parse_xml.WeatherParser.parse().weather&apos; in &apos;com.example.parse_xml.WeatherParser.parse()&apos; to field&#x0D;&#x0A;- Original project: &apos;Parse_xml&apos;&#x0D;&#x0A;- Original element: &apos;com.example.parse_xml.WeatherParser.parse().weather&apos;&#x0D;&#x0A;- Field name: &apos;weather&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;weather&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;com.example.parse_xml{WeatherParser.java" name="weather" selection="684 23" stamp="1540447940082" static="true" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,2 @@
+1540466782515	Convert local variable 'writableDatabase' to field
+1540466834715	Convert local variable 'myOpenHelper' to field

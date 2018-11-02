@@ -1,0 +1,18 @@
+package com.example.activityproject;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+
+public class ResultActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_result);
+
+		ll_activity_result = View.inflate(getApplicationContext(),
+				R.layout.activity_result, null);
+	}
+
+}

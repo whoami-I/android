@@ -1,0 +1,23 @@
+package com.example.sendmessage;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+public class SmsTemplateActivity extends Activity {
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_smstemplate);
+
+		String object[] = { "I am eating,please call later",
+				"I am attending class,please call later",
+				"I am driving,please call later",
+				"I am shiting,please call later", };
+
+		ListView lv_sms_template = (ListView) findViewById(R.id.lv_sms_template);
+		ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
+				getApplicationContext(), R.layout.activity_smstemplate, object);
+	}
+}

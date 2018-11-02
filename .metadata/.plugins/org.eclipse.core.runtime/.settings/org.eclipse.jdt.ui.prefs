@@ -1,6 +1,5 @@
 content_assist_autoactivation_triggers_java=.ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
-content_assist_favorite_static_members=
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="com.example.gen_xml.MySms"><rhs name\="com.example.gen_xml.MySms"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuffer"/><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.io.OutputStream"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.Flushable"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.FileOutputStream"><rhs name\="java.io.FileOutputStream"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="android.widget.TextView"><rhs name\="android.widget.EditText"/><rhs name\="android.widget.CheckBox"/><rhs name\="android.widget.Button"/></lhs><lhs name\="android.view.ViewTreeObserver$OnPreDrawListener"><rhs name\="android.widget.EditText"/><rhs name\="android.widget.CheckBox"/><rhs name\="android.widget.Button"/></lhs><lhs name\="android.view.View"><rhs name\="android.widget.EditText"/><rhs name\="android.widget.CheckBox"/><rhs name\="android.widget.Button"/></lhs><lhs name\="android.graphics.drawable.Drawable$Callback"><rhs name\="android.widget.EditText"/><rhs name\="android.widget.CheckBox"/><rhs name\="android.widget.Button"/></lhs><lhs name\="android.view.KeyEvent$Callback"><rhs name\="android.widget.EditText"/><rhs name\="android.widget.CheckBox"/><rhs name\="android.widget.Button"/></lhs><lhs name\="android.view.accessibility.AccessibilityEventSource"><rhs name\="android.widget.EditText"/><rhs name\="android.widget.CheckBox"/><rhs name\="android.widget.Button"/></lhs><lhs name\="android.widget.EditText"><rhs name\="android.widget.EditText"/></lhs><lhs name\="android.os.Parcelable"><rhs name\="android.content.Intent"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="android.content.Intent"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="android.content.Intent"><rhs name\="android.content.Intent"/></lhs><lhs name\="android.widget.CompoundButton"><rhs name\="android.widget.CheckBox"/></lhs><lhs name\="android.widget.Checkable"><rhs name\="android.widget.CheckBox"/></lhs><lhs name\="android.widget.Button"><rhs name\="android.widget.CheckBox"/><rhs name\="android.widget.Button"/></lhs><lhs name\="android.widget.CheckBox"><rhs name\="android.widget.CheckBox"/></lhs><lhs name\="java.io.File"><rhs name\="java.io.File"/></lhs><lhs name\="java.io.OutputStream"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileInputStream"/><rhs name\="java.io.BufferedReader"/><rhs name\="java.io.InputStreamReader"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.Flushable"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.FileInputStream"/><rhs name\="java.io.BufferedReader"/><rhs name\="java.io.InputStreamReader"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.FileOutputStream"><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.util.Map"><rhs name\="java.util.HashMap"/></lhs><lhs name\="java.io.InputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.io.FileInputStream"><rhs name\="java.io.FileInputStream"/></lhs><lhs name\="java.io.Reader"><rhs name\="java.io.BufferedReader"/><rhs name\="java.io.InputStreamReader"/></lhs><lhs name\="java.lang.Readable"><rhs name\="java.io.BufferedReader"/><rhs name\="java.io.InputStreamReader"/></lhs><lhs name\="java.io.BufferedReader"><rhs name\="java.io.BufferedReader"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="com.example.gen_xml.MySms"><rhs name\="com.example.gen_xml.MySms"/></lhs><lhs name\="com.example.parse_xml.Weather"><rhs name\="com.example.parse_xml.Weather"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuffer"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuffer"/><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuffer"/></lhs></history>
 content_assist_number_of_computers=12
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
@@ -20,21 +19,15 @@ java_multi_line_comment=255,255,255
 java_operator=255,0,127
 java_single_line_comment=255,255,255
 java_string=236,228,126
+org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.ui.editor.tab.width=
-org.eclipse.jdt.ui.exception.name=e
 org.eclipse.jdt.ui.formatterprofiles.version=12
-org.eclipse.jdt.ui.gettersetter.use.is=true
-org.eclipse.jdt.ui.ignorelowercasenames=true
-org.eclipse.jdt.ui.importorder=java;javax;org;com;
 org.eclipse.jdt.ui.javadoclocations.migrated=true
-org.eclipse.jdt.ui.ondemandthreshold=99
-org.eclipse.jdt.ui.overrideannotation=true
-org.eclipse.jdt.ui.staticondemandthreshold=99
 org.eclipse.jdt.ui.text.code_templates_migrated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.text.templates_migrated=true
-org.eclipse.jface.textfont=1|Courier New|20.0|0|WINDOWS|1|-40|0|0|0|400|0|0|0|0|3|2|1|49|Courier New;
+org.eclipse.jface.textfont=1|Courier New|18.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|0|3|2|1|49|Courier New;
 pf_coloring_argument=255,0,127
 pf_coloring_assignment=207,191,173
 pf_coloring_comment=255,255,255
@@ -45,10 +38,17 @@ semanticHighlighting.abstractMethodInvocation.color=190,214,255
 semanticHighlighting.abstractMethodInvocation.enabled=true
 semanticHighlighting.annotation.color=255,255,255
 semanticHighlighting.annotation.enabled=true
+semanticHighlighting.class.bold=false
 semanticHighlighting.class.color=82,227,246
 semanticHighlighting.class.enabled=true
+semanticHighlighting.class.strikethrough=false
+semanticHighlighting.class.underline=false
 semanticHighlighting.deprecatedMember.color=255,0,0
 semanticHighlighting.deprecatedMember.enabled=true
+semanticHighlighting.deprecatedMember.strikethrough=true
+semanticHighlighting.deprecatedMember.underline=false
+semanticHighlighting.enum.color=127,179,71
+semanticHighlighting.enum.enabled=true
 semanticHighlighting.field.color=207,191,173
 semanticHighlighting.field.enabled=true
 semanticHighlighting.inheritedMethodInvocation.color=190,214,255

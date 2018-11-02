@@ -1,0 +1,23 @@
+package com.example.activityproject;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
+public class ResultActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_result);
+
+		View ll_activity_result = View.inflate(getApplicationContext(),
+				R.layout.activity_result, null);
+		TextView tv_name = ll_activity_result.findViewById(R.id.tv_name);
+		TextView tv_gender = ll_activity_result.findViewById(R.id.tv_gender);
+		TextView tv_description = ll_activity_result
+				.findViewById(R.id.tv_description);
+	}
+
+}

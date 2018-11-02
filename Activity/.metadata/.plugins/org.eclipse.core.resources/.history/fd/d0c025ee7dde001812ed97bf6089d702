@@ -1,0 +1,4 @@
+<TextView
+    android:id="@+id/tv_sms_template_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />

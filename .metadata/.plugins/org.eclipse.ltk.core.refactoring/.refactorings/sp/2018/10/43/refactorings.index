@@ -1,0 +1,5 @@
+1540379563316	Convert local variable 'sp' to field
+1540380310257	Convert local variable 'cb_auto_login' to field
+1540380346191	Convert local variable 'btn_login' to field
+1540382753192	Convert local variable 'username' to field
+1540383101126	Convert local variable 'password' to field

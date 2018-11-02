@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;com.example.progressbartest.MainActivity.onCreate().pg&apos; in &apos;com.example.progressbartest.MainActivity.onCreate()&apos; to field&#x0D;&#x0A;- Original project: &apos;ProgressBarTest&apos;&#x0D;&#x0A;- Original element: &apos;com.example.progressbartest.MainActivity.onCreate().pg&apos;&#x0D;&#x0A;- Field name: &apos;pg&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;pg&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;com.example.progressbartest{MainActivity.java" name="pg" selection="391 40" stamp="1540977124493" static="false" version="1.0" visibility="2"/>
+</session>

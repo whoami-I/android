@@ -1,0 +1,18 @@
+package com.example.activityproject;
+
+import android.R.layout;
+import android.app.Activity;
+import android.os.Bundle;
+import android.text.Layout;
+
+public class ResultActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_result);
+
+		layout ll_activity_result = (layout)findViewById(R.layout.activity_result);
+	}
+
+}
