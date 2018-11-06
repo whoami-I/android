@@ -1,22 +1,5 @@
-autoProposeCode=<\=\:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
-cdataBorder=\#A7EC21 | null | false | false | false | false
-cdataText=\#CFBFAD | null | false | false | false | false
-commentBorder=\#FFFFFF | null | false | false | false | false
-commentText=\#FFFFFF | null | false | false | false | false
-declBorder=\#A7EC21 | null | false | false | false | false
-doctypeExternalId=\#A7EC21 | null | false | false | false | false
-doctypeExternalPubref=\#A7EC21 | null | false | false | false | false
-doctypeExtrenalSysref=\#A7EC21 | null | false | false | false | false
-doctypeName=\#A7EC21 | null | false | false | false | false
+autoProposeCode=<\=\:.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 eclipse.preferences.version=1
-entityReference=\#FF007F | null | false | false | false | false
-piBorder=\#A7EC21 | null | false | false | false | false
-piContent=\#CFBFAD | null | false | false | false | false
-tagAttributeEquals=\#CFBFAD | null | false | false | false | false
-tagAttributeName=\#CFBFAD | null | false | false | false | false
-tagAttributeValue=\#ECE47E | null | false | false | false | false
-tagBorder=\#CFBFAD | null | false | false | false | false
-tagName=\#CFBFAD | null | false | false | false | false
-xmlContent=\#CFBFAD | null | false | false | false | false
+org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 xml_content_assist_default_page_sort_order=org.eclipse.wst.xml.ui.proposalCategory.xmlTags\u0000org.eclipse.wst.xml.ui.proposalCategory.xmlTemplates\u0000
 xml_content_assist_own_page_sort_order=org.eclipse.wst.xml.ui.proposalCategory.xmlTemplates\u0000org.eclipse.wst.xml.ui.proposalCategory.xmlTags\u0000
